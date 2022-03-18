@@ -1,0 +1,59 @@
+TP1 : etude du processus stationnaire, par def bruit blanc
+
+1) simulation d'un processus bruit blanc de variance 2², simulation par 500 observations.
+2) etude du processus {Et} t app à Z bruit blanc : 
+*fct d'autocorrelations simple et partielle, FAC et FACP; ( plot du correlogramme)
+*plot simple du processus.
+
+
+TP2 :
+	
+soit la serie quotidienne de l'indice boursier americain SP 500 obs. sur la periode 
+03/07/1983 - 18/07/2003
+
+1) plot de la serie.commenter;
+2) etude de son plot de correlogramme;
+3) determiner la serie de rendement Rt ;
+4) etude de cette serie Rt (plot + correlogramme ) . interpreter.
+
+TP3 :
+
+1) etude des caracteristiques et proprietes des processus;
+2) representation graphique des processus.
+
+on se donne les processus : 
+* Xt = E(t) - E(t-1) , pour tout t 
+* Xt = bE(t) + cE (t-1)
+* Xt = Et.E(t-1)
+* Xt = X(t-1) + E(t-1) , x0=0
+* Xt = -X(t-1) + Et , X0=0
+* Xt = at + b + Et
+* Xt = at² + bt + c +Et
+on suppose des valeurs arbitraires pour les coefs des processus et Et suit BB(0 , sigma²)
+soit sigma²=12
+
+
+ex3:
+Soit le modele lineaire Y=a+bx+epsilon
+
+soit l'estimateur des mco bmco
+1/on estime la relation x=alpha + beta y + epsilon
+ montrer qu'en general bmco != b^(-1)
+
+2/montrer que l'egalite n'est valable que lorsque le coeff 
+ de correlation est egale a l'unite
+
+
+ex4:
+tp 4 : 
+Soit le nombre de questions de reference reçus par un bibliothècaire par jour
+ainsi que le nombre de recherches automatisées que ce bibliothècaire a fait.
+Est ce que le nombre de recherches automatisées depend du nombre de questions
+de reference ? Montrer comment si la question est positive .
+
+Nombre de questions de reference   : 10 , 8 , 6 , 4 , 11 , 3 , 6 , 5 
+Nombre  de recherches automatisées :  7 , 7 , 8 , 2 , 10 , 5 , 6 , 3
+
+Interpretater les resultats .
+
+
